@@ -8,7 +8,7 @@ import br.edu.utfpr.dv.sireata.dao.ComentarioDAO;
 import br.edu.utfpr.dv.sireata.model.Comentario;
 import br.edu.utfpr.dv.sireata.model.Comentario.SituacaoComentario;
 
-public class ComentarioBO {
+public class ComentarioBO extends AbstractClass {
 	
 	public Comentario buscarPorId(int id) throws Exception{
 		try{

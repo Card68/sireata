@@ -15,7 +15,7 @@ import br.edu.utfpr.dv.sireata.ldap.LdapUtils;
 import br.edu.utfpr.dv.sireata.model.Usuario;
 import br.edu.utfpr.dv.sireata.util.StringUtils;
 
-public class UsuarioBO {
+public class UsuarioBO extends AbstractClass{
 	
 	public List<Usuario> listarTodos(boolean apenasAtivos) throws Exception{
 		try {

@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 import br.edu.utfpr.dv.sireata.dao.AtaParticipanteDAO;
 import br.edu.utfpr.dv.sireata.model.AtaParticipante;
 
-public class AtaParticipanteBO {
+public class AtaParticipanteBO extends AbstractClass{
 	
 	public AtaParticipante buscarPorId(int id) throws Exception{
 		try{

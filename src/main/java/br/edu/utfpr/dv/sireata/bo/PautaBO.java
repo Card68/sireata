@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 import br.edu.utfpr.dv.sireata.dao.PautaDAO;
 import br.edu.utfpr.dv.sireata.model.Pauta;
 
-public class PautaBO {
+public class PautaBO extends AbstractClass{
 	
 	public Pauta buscarPorId(int id) throws Exception{
 		try{

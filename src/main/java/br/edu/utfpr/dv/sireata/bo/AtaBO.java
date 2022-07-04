@@ -29,7 +29,7 @@ import br.edu.utfpr.dv.sireata.model.AtaReport;
 import br.edu.utfpr.dv.sireata.model.Orgao;
 import br.edu.utfpr.dv.sireata.model.ParticipanteReport;
 
-public class AtaBO {
+public class AtaBO extends AbstractClass{
 	
 	public Ata buscarPorId(int id) throws Exception{
 		try{

@@ -9,7 +9,7 @@ import br.edu.utfpr.dv.sireata.model.Orgao;
 import br.edu.utfpr.dv.sireata.model.OrgaoMembro;
 import br.edu.utfpr.dv.sireata.model.Usuario;
 
-public class OrgaoBO {
+public class OrgaoBO  extends AbstractClass{
 	
 	public Orgao buscarPorId(int id) throws Exception{
 		try{

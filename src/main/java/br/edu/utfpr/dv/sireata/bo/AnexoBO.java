@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 import br.edu.utfpr.dv.sireata.dao.AnexoDAO;
 import br.edu.utfpr.dv.sireata.model.Anexo;
 
-public class AnexoBO {
+public class AnexoBO extends AbstractClass{
 
 	public Anexo buscarPorId(int id) throws Exception{
 		try{

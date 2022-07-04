@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 import br.edu.utfpr.dv.sireata.dao.DepartamentoDAO;
 import br.edu.utfpr.dv.sireata.model.Departamento;
 
-public class DepartamentoBO {
+public class DepartamentoBO extends AbstractClass{
 	
 	public Departamento buscarPorId(int id) throws Exception{
 		try{
